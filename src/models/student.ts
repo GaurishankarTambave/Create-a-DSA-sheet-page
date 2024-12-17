@@ -7,6 +7,7 @@
 //     lastName: { type: String, required: true },
 //     gender: { type: String, enum: ['male', 'female'] },
 //     phone: { type: String, required: true },
+//     completedTopics: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Topic' }],
 // });
 
 // export default mongoose.model('Student', studentSchema);

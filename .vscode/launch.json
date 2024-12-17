@@ -16,7 +16,10 @@
 			"program": "${workspaceFolder}/node_modules/ts-node/dist/bin",
 			"skipFiles": [
 				"<node_internals>/**/*.js"
-			]
+			],
+            "args": [
+                "src/index.ts"
+            ]
 		}
 
     ]
